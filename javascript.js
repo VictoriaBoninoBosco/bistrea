@@ -60,5 +60,8 @@ function verProducto(numProducto) {
     }
   }
 }
+{
+    
+}
 
    
