@@ -1,0 +1,103 @@
+.logo{
+    display: flex;
+}
+
+.fotoLogo{
+    width: 50px;
+    height: 70px;
+}
+
+.fotoBanner{
+    width: 100%;
+}
+
+.texto{
+    width: 45%;
+}
+.fotoinicio1{
+    height: 300px;
+    margin-left: 4%;
+}
+.info{
+    display: flex;
+}
+.fotoinicio2{
+    height: 300px;
+    
+}
+h5{
+    font: 1em comfortaa;
+   
+}
+.qsomos1{
+    height: 300px;
+    
+
+}
+.qsomos2{
+    height: 300px;
+    
+}
+.qsomos3{
+    height: 300px;
+    
+}
+.qsomostexto{
+    width: 45%;
+}
+.quienessomos{
+    display: flex;
+}
+h5{
+    font-family: 'Santa Bookmark';
+    src: url('Santa Bookmark.otf') format('otf');
+}
+.producto-vista {
+  display: none;
+  margin-top: 10px;
+  font-family: 'Georgia', serif;
+}
+
+.rustic-card {
+  background-color: #f9f3ef;
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.rustic-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card-title {
+  color: #5C3A21;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+}
+
+.card-text {
+  font-family: 'Courier New', monospace;
+}
+
+.rustic-text {
+  font-family: 'Georgia', serif;
+  color: #3e2c23;
+  text-align: justify;
+}
+
+.rustic-img {
+  border: 2px solid #e7ddd3;
+  transition: transform 0.3s ease;
+}
+
+.rustic-img:hover {
+  transform: scale(1.03);
+  border-color: #cbb69d;
+}
