@@ -32,21 +32,83 @@
         </div>
       </nav>
       <div>
-        <h2 class="text-center display-5" style="color: #5C3A21;">Recomendaciones</h2>
-        <label for="">¿el cafe como lo preferis frio o caliente?</label>
-        <input type="text">
-        <br>
-        <label for="">¿cafe simple o elaborado?</label>
-        <input type="text">
-        <br>
-        <label for="">¿cafe con alcohol o sin alcohol?</label>
-        <input type="text">
+        <h2 class="text-center display-5" style="color: #5C3A21;">Recomendaciones IO</h2>
+        <div id = "pregunta1">
+          <label for="">¿el cafe como lo preferis frio o caliente?</label>
+          <br>
+          <select name="pregunta1" id="preg1">
+            <option value="frio">Frio</option>
+            <option value="caliente">Caliente</option>
+          </select>
+          <button onclick="enviarPregunta(1)">Enviar</button>
+        </div>
+
+        <div id = "pregunta2" style="display: none;">
+          <label for="">¿cafe fuerte o suave?</label>
+          <br>
+          <select name="pregunta2" id="preg2">
+            <option value="fuerte">Fuerte</option>
+            <option value="suave">Suave</option>
+          </select>
+          <button onclick="enviarPregunta(2)">Enviar</button>
+        </div>
+
+        <div id = "pregunta3" style="display: none;">
+          <label for="">¿cafe dulce o amargo?</label>
+          <br>
+          <select name="pregunta3" id="preg3">
+            <option value="dulce">dulce</option>
+            <option value="amargo">amargo</option>
+          </select>
+          <button onclick="enviarPregunta(3)">Enviar</button>
+        </div>
+
+        <div id = "pregunta4" style="display: none;">
+          <label for="">¿cafe clasico o innovador?</label>
+          <br>
+          <select name="pregunta4" id="preg4">
+            <option value="clasico">clasico</option>
+            <option value="innovador">innovador</option>
+          </select>
+          <button onclick="enviarPregunta(4)">Enviar</button>
+        </div>
+
+        <div id = "pregunta5" style="display: none;">
+          <label for="">¿cafe con alcohl o sin alcohl?</label>
+          <br>
+          <select name="pregunta5" id="preg5">
+            <option value="con alcohl">con alcohl</option>
+            <option value="sin alcohl">sin alcohl</option>
+          </select>
+          <button onclick="enviarPregunta(5)">Enviar</button>
+        </div>
+
+        <div id = "pregunta6" style="display: none;">
+          <label for="">¿cafe por capas o más elaborado?</label>
+          <br>
+          <select name="pregunta6" id="preg6">
+            <option value="capas">capas</option>
+            <option value="elaborado">elaborado</option>
+          </select>
+          <button onclick="enviarPregunta(6)">Enviar</button>
+        </div>
+
+        <div id = "pregunta7" style="display: none;">
+          <label for="">¿cafe cremoso o muy dulce?</label>
+          <br>
+          <select name="pregunta7" id="preg7">
+            <option value="fuerte">Fuerte</option>
+            <option value="suave">Suave</option>
+          </select>
+          <button onclick="enviarPregunta(7)">Enviar</button>
+        </div>
+
+        <div id = "resultado" style="display: none;">
+          
+        </div>
+
 
       </div>
-
-
-
-
 
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>

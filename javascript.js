@@ -49,7 +49,7 @@
 }
 */
 function verProducto(numProducto) {
-  const total = 4;
+  const total = 8;
 
   for (let i = 1; i <= total; i++) {
     const vista = document.getElementById(`vista${i}`);
@@ -60,8 +60,56 @@ function verProducto(numProducto) {
     }
   }
 }
-{
-    
-}
 
-   
+var pregunta1 = ""
+var pregunta2 = ""
+var pregunta3 = ""
+var pregunta4 = ""
+var pregunta5 = ""
+var pregunta6 = ""
+var pregunta7 = ""
+
+function enviarPregunta(nPregunta){
+    if (nPregunta == 1){
+        pregunta1 = document.getElementById("preg1").value
+        document.getElementById("pregunta1").style.display = "none"
+        document.getElementById("pregunta2").style.display = "block"
+    }
+    else if (nPregunta == 2){
+        pregunta2 = document.getElementById("preg2").value
+        document.getElementById("pregunta2").style.display = "none"
+        document.getElementById("pregunta3").style.display = "block"
+    }
+    else if (nPregunta == 3){
+        pregunta2 = document.getElementById("preg3").value
+        document.getElementById("pregunta3").style.display = "none"
+        document.getElementById("pregunta4").style.display = "block"
+    }
+    else if (nPregunta == 4){
+        pregunta2 = document.getElementById("preg4").value
+        document.getElementById("pregunta4").style.display = "none"
+        document.getElementById("pregunta5").style.display = "block"
+    }
+     else if (nPregunta == 5){
+        pregunta2 = document.getElementById("preg5").value
+        document.getElementById("pregunta5").style.display = "none"
+        document.getElementById("pregunta6").style.display = "block"
+    }
+     else if (nPregunta == 6){
+        pregunta2 = document.getElementById("preg6").value
+        document.getElementById("pregunta6").style.display = "none"
+        document.getElementById("pregunta7").style.display = "block"
+    }
+    else if (nPregunta == 7){
+        pregunta2 = document.getElementById("preg7").value
+        document.getElementById("pregunta7").style.display = "none"
+        document.getElementById("resultado").style.display = "block"
+    }
+
+    if (pregunta1 == "frio" || pregunta2 == "suave" || pregunta4 == "innovador"){
+        document.getElementById("resultado").innerHTML = "Café Cremoso"
+    }else{
+        document.getElementById("resultado").innerHTML = "Café Clásico"
+    }
+
+}
