@@ -101,3 +101,8 @@ h5{
   transform: scale(1.03);
   border-color: #cbb69d;
 }
+
+.resultados{
+  width: 400px;
+  height: 400px;
+}

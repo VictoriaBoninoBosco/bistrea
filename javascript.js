@@ -103,13 +103,32 @@ function enviarPregunta(nPregunta){
     else if (nPregunta == 7){
         pregunta2 = document.getElementById("preg7").value
         document.getElementById("pregunta7").style.display = "none"
-        document.getElementById("resultado").style.display = "block"
-    }
 
-    if (pregunta1 == "frio" || pregunta2 == "suave" || pregunta4 == "innovador"){
-        document.getElementById("resultado").innerHTML = "Café Cremoso"
-    }else{
-        document.getElementById("resultado").innerHTML = "Café Clásico"
+        //UNA VEZ QUE TERMINA...
+        // --- RECOMENDACIONES DE CAFÉ ---
+        if (pregunta1 == "frio" && pregunta2 == "fuerte" && pregunta5 == "sin alcohl"){
+            document.getElementById("resultado1").style.display = "block"; // Café dulce
+        }
+        else if (pregunta1 == "caliente" && pregunta2 == "suave" && pregunta5 == "sin alcohl"){
+            document.getElementById("resultado2").style.display = "block"; // Café cremoso
+        }
+        else if (pregunta1 == "caliente" && pregunta4 == "clasico" && pregunta5 == "sin alcohl"){
+            document.getElementById("resultado3").style.display = "block"; // Café negro
+        }
+        else if (pregunta1 == "frio" && pregunta4 == "innovador" && pregunta5 == "con alcohl"){
+            document.getElementById("resultado4").style.display = "block"; // Café shot
+        }
+        else if (pregunta3 == "amargo" && pregunta6 == "elaborado"){
+            document.getElementById("resultado5").style.display = "block"; // Café puro
+        }
+        else if (pregunta1 == "caliente" && pregunta4 == "innovador" && pregunta7 == "suave"){
+            document.getElementById("resultado6").style.display = "block"; // Café frío
+        }
+        else if (pregunta1 == "frio" && pregunta6 == "capas" && pregunta3 == "dulce"){
+            document.getElementById("resultado7").style.display = "block"; // Café 3 capas
+        }
+        else {
+            document.getElementById("resultado8").style.display = "block"; // Default
+        }
     }
-
 }
