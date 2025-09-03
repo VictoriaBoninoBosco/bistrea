@@ -225,3 +225,8 @@ button:hover {
     display: flex;
     justify-content: center; /* centra cada card dentro de su columna */
 }
+.resultados > div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
