@@ -106,3 +106,122 @@ h5{
   width: 400px;
   height: 400px;
 }
+
+.recomendaciones-box {
+  max-width: 700px;          /* ancho fijo y centrado */
+  background: #fffaf5;       /* color claro tipo papel */
+  border: 3px solid #d4a373; /* borde rústico */
+  border-radius: 15px;       /* esquinas redondeadas */
+  box-shadow: 0px 6px 15px rgba(92, 58, 33, 0.3); /* sombra cálida */
+  text-align: center;        /* centrar contenido */
+}
+.recomendaciones-box h2 {
+  color: #5C3A21;
+  font-weight: bold;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f3ef;
+    color: #5C3A21;
+    padding-bottom: 50px;
+}
+
+h2.display-5 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #5C3A21;
+}
+
+label {
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+}
+
+select {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    width: 200px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #5C3A21;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #7b5233;
+    transform: scale(1.05);
+}
+
+.rustic-card {
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff8f0;
+    transition: transform 0.3s ease;
+}
+
+.rustic-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
+}
+
+.card-title {
+    color: #5C3A21;
+    font-weight: 600;
+}
+
+.producto-vista {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+#pregunta1, #pregunta2, #pregunta3, #pregunta4, #pregunta5, #pregunta6, #pregunta7 {
+    margin: 20px auto;
+    width: fit-content;
+    background-color: #fff8f0;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.05);
+}
+
+.navbar-brand .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-brand .fotoLogo {
+    width: 40px;
+    height: 40px;
+}
+
+.resultados {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.resultados {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center; /* centra horizontalmente */
+    align-items: center;     /* centra verticalmente si hay pocas */
+}
+
+.resultados .col {
+    display: flex;
+    justify-content: center; /* centra cada card dentro de su columna */
+}
